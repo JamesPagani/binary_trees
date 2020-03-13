@@ -50,4 +50,7 @@ binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 
 
+/* Backup Functions */
+size_t calc_depth(const binary_tree_t *tree, size_t depth);
+
 #endif
